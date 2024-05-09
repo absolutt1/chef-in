@@ -1,0 +1,76 @@
+body {
+  margin: 0 auto;
+  background-color: #EDEAE5;
+}
+
+.main {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 750px;
+  width: 100%;
+}
+
+.elements {
+  width: 150px;
+  height: 150px;
+  background-color: #9ba986;
+  border-radius:100%;
+  text-align: center;
+  align-content: center;
+  color: white;
+  display: flex;
+  text-align: center;
+}
+
+.header {
+  width: 100%;
+  height: 50px;
+  background-color: #dddfd1;
+}
+
+#ico {
+  position: absolute;
+  left: 40px;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+#category-req {
+  font-family: 'Inter', sans-serif;
+  font-weight: 600;
+  position: absolute;
+  top: 100px;
+}
+
+.categories {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 80%;
+  height: 150px;
+  margin-block: 20px;
+}
+
+.container-cat {
+  height: 350px;
+  width: 75%;
+  display: grid;
+  place-items: center;
+}
+
+#categories-3 {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 50%;
+  height: 150px;
+}
+
+.category {
+  flex-basis: 20%; /* adjust the width of each category */
+  margin: 10px;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+}
